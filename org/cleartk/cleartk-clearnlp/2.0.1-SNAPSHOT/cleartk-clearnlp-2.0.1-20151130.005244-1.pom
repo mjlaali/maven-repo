@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+    <artifactId>cleartk-clearnlp</artifactId>
+	<packaging>jar</packaging>
+    <name>ClearTK ClearNLP</name>
+    <description>Wrappers for the ClearNLP components that integrate with ClearTK's type system.</description>
+	<parent>
+		<artifactId>cleartk</artifactId>
+		<groupId>org.cleartk</groupId>
+		<version>2.0.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+ <dependencies>
+  <dependency>
+  	<groupId>org.cleartk</groupId>
+  	<artifactId>cleartk-util</artifactId>
+  </dependency>
+  <dependency>
+  	<groupId>org.cleartk</groupId>
+  	<artifactId>cleartk-type-system</artifactId>
+  </dependency>
+  <dependency>
+    <groupId>edu.emory.clir</groupId>
+    <artifactId>clearnlp</artifactId>
+    <version>3.2.0</version>
+  </dependency>
+
+  <!--  ClearNLP dictionaries -->
+   <dependency>
+      <groupId>edu.emory.clir</groupId>
+      <artifactId>clearnlp-dictionary</artifactId>
+      <version>3.2</version>
+   </dependency>
+   <dependency>
+      <groupId>edu.emory.clir</groupId>
+      <artifactId>clearnlp-global-lexica</artifactId>
+      <version>3.1</version>
+   </dependency>
+   <dependency>
+    <groupId>edu.emory.clir</groupId>
+    <artifactId>clearnlp-general-en-ner-gazetteer</artifactId>
+    <version>3.0</version>
+   </dependency>
+
+  <!--  ClearNLP models -->
+    <dependency>
+        <groupId>edu.emory.clir</groupId>
+        <artifactId>clearnlp-general-en-pos</artifactId>
+        <version>3.2</version>
+    </dependency>
+    <dependency>
+        <groupId>edu.emory.clir</groupId>
+        <artifactId>clearnlp-general-en-dep</artifactId>
+        <version>3.2</version>
+    </dependency>
+    <dependency>
+        <groupId>edu.emory.clir</groupId>
+        <artifactId>clearnlp-general-en-ner</artifactId>
+        <version>3.1</version>
+    </dependency>
+   <dependency>
+        <groupId>edu.emory.clir</groupId>
+        <artifactId>clearnlp-general-en-srl</artifactId>
+        <version>3.0</version>
+    </dependency>
+
+
+  
+  
+  <dependency>
+  	<groupId>org.cleartk</groupId>
+  	<artifactId>cleartk-test-util</artifactId>
+  </dependency>
+ </dependencies>
+	<build>
+		<plugins>
+			<!-- increase max memory for tests since models must be loaded -->
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<argLine>-Xmx4g</argLine>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
