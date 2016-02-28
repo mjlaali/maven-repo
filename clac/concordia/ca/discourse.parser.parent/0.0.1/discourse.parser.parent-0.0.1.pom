@@ -11,12 +11,13 @@
 		<module>discourse.parser.dc-disambiguation</module>
 		<module>tools</module>
 		<module>discourse.parser.evaluation</module>
+		<module>discourse.parser.argument_labeler</module>
 	</modules>
 
 	<distributionManagement>
 		<repository>
 			<id>majid-repo</id>
-			<url>file:///Users/majid/Documents/git/mvn-repo</url>
+			<url>file:///Users/majid/Documents/git/maven-repo</url>
 		</repository>
 	</distributionManagement>
 
@@ -24,7 +25,7 @@
 		<repository>
 			<id>majid-repo</id>
 			<name>Majid Laali repository</name>
-			<url>http://users.encs.concordia.ca/~m_laali/mvn-repo/</url>
+			<url>https://github.com/mjlaali/maven-repo/raw/master</url>
 		</repository>
 	</repositories>
 
@@ -126,6 +127,22 @@
 			<artifactId>mockito-all</artifactId>
 			<version>RELEASE</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-core</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>2.6.2</version>
 		</dependency>
 	</dependencies>
 </project>
