@@ -3,12 +3,13 @@
   <groupId>clac.concordia.ca</groupId>
   <artifactId>discourse.parser.dc-disambiguation</artifactId>
   <versioning>
-    <release>0.1.1</release>
+    <release>1.0.0</release>
     <versions>
       <version>0.0.1</version>
       <version>0.1.0</version>
       <version>0.1.1</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20160427221402</lastUpdated>
+    <lastUpdated>20160627202002</lastUpdated>
   </versioning>
 </metadata>
