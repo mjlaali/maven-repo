@@ -3,10 +3,11 @@
   <groupId>clac.concordia.ca</groupId>
   <artifactId>mjtools</artifactId>
   <versioning>
-    <release>0.0.1</release>
+    <release>0.0.2</release>
     <versions>
       <version>0.0.1</version>
+      <version>0.0.2</version>
     </versions>
-    <lastUpdated>20160122032549</lastUpdated>
+    <lastUpdated>20161124224158</lastUpdated>
   </versioning>
 </metadata>
