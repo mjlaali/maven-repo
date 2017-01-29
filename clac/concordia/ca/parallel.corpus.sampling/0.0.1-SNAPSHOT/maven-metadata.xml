@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>clac.concordia.ca</groupId>
+  <artifactId>parallel.corpus.sampling</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20170129.213611</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20170129213611</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20170129.213611-1</value>
+        <updated>20170129213611</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20170129.213611-1</value>
+        <updated>20170129213611</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
