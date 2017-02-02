@@ -3,9 +3,12 @@
   <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
   <artifactId>de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl</artifactId>
   <versioning>
+    <release>1.7.0-PATCHED</release>
     <versions>
       <version>1.8.0-SNAPSHOT</version>
+      <version>1.8.0-PATCHED</version>
+      <version>1.7.0-PATCHED</version>
     </versions>
-    <lastUpdated>20151130021458</lastUpdated>
+    <lastUpdated>20170202023617</lastUpdated>
   </versioning>
 </metadata>
